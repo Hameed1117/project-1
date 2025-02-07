@@ -1,11 +1,9 @@
-from app import add
-
+"""Contains Tests for different Calc Functions"""
+from app import add, sub
 def test_add():
-    assert add(2,2) == 4
-
-
-from app import sub
+    """test addition functionality"""
+    assert add(2,2)==4
 
 def test_sub():
-    assert sub(7,5) == 2
-
+    """test subtraction functionality"""
+    assert sub(7,5)==2
