@@ -1,5 +1,5 @@
 """Contains Tests for different Calc Functions"""
-from app import add, sub
+from app.calculator import add, div, mul, sub
 def test_add():
     """test addition functionality"""
     assert add(2,2)==4
@@ -7,3 +7,11 @@ def test_add():
 def test_sub():
     """test subtraction functionality"""
     assert sub(7,5)==2
+
+def test_mul():
+    """test multiplication functionality"""
+    assert mul(7,5)==35
+
+def tes_div():
+    """test division functionality"""
+    assert div(4,2)==2
